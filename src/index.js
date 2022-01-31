@@ -14,6 +14,7 @@ import { videos } from './modules/home/videos'
 import { footer } from './modules/footer'
 import { nav } from './modules/nav'
 import favicon from './assets/images/favicon.png'
+import { GBox } from './assets/vendors/js/glightbox.js'
 
 library.add(fas, far, fab) 
 
@@ -29,3 +30,13 @@ nav()
 about()
 videos()
 footer()
+
+GBox()
+
+const lightbox = GLightbox({
+    href: "https://www.youtube.com/watch?v=f04iCnYJuKs",
+    type: "video",
+    source: "youtube", //vimeo, youtube or local
+    width: 900,
+    autoPlayVideos: "true",
+  });

@@ -10968,10 +10968,6 @@ textarea.form-control-lg {
   transition: 500ms;
 }
 
-#play-btn:hover {
-  color: #5580ff;
-}
-
 pre {
   overflow: hidden;
 }
