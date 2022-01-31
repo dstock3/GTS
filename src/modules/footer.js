@@ -1,5 +1,4 @@
-import { sectionBuilder, contactBoxBuilder, elementBuilder } from "./functions.js";
-import { contactBoxArray } from "./data.js";
+import { sectionBuilder, elementBuilder } from "./functions.js";
 import { body } from "./nav.js";
 
 const footer = () => {
@@ -24,19 +23,34 @@ const footer = () => {
   soundcloudAnchor.href = "https://soundcloud.com/andrew-miller-92566355"; 
   const soundcloudIcon = elementBuilder("i", "fab", soundcloudAnchor);
   soundcloudIcon.classList.add("fa-soundcloud", "fa-2x");
+  soundcloudIcon.target="_blank" 
+  soundcloudIcon.rel="noopener noreferrer"
+
+  const spotifyAnchor = elementBuilder("a", "social-media-links", socialIcons);
+  spotifyAnchor.href = "https://open.spotify.com/show/3pJSKX8ymOpTZ1erLjRuzJ";
+  spotifyAnchor.target="_blank" 
+  spotifyAnchor.rel="noopener noreferrer"
+  const spotifyIcon = elementBuilder("i", "fab", spotifyAnchor);
+  spotifyIcon.classList.add("fa-spotify", "fa-2x");
 
   const twitterAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  twitterAnchor.href = "https://twitter.com/gtspodcast1"; 
+  twitterAnchor.href = "https://twitter.com/gtspodcast1";
+  twitterAnchor.target="_blank" 
+  twitterAnchor.rel="noopener noreferrer"
   const twitterIcon = elementBuilder("i", "fab", twitterAnchor);
   twitterIcon.classList.add("fa-twitter", "fa-2x");
 
   const facebookAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  facebookAnchor.href = "https://www.facebook.com/pages/category/Sports/Garage-Talk-Sports-110950621066022/"; 
+  facebookAnchor.href = "https://www.facebook.com/pages/category/Sports/Garage-Talk-Sports-110950621066022/";
+  facebookAnchor.target="_blank" 
+  facebookAnchor.rel="noopener noreferrer"
   const facebookIcon = elementBuilder("i", "fab", facebookAnchor);
   facebookIcon.classList.add("fa-facebook", "fa-2x");
 
   const youtubeAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  youtubeAnchor.href = "https://www.youtube.com/channel/UC8-PDeILSrtgQlKsZcrY-LQ"; 
+  youtubeAnchor.href = "https://www.youtube.com/channel/UC8-PDeILSrtgQlKsZcrY-LQ";
+  youtubeAnchor.target="_blank" 
+  youtubeAnchor.rel="noopener noreferrer"
   const youtubeIcon = elementBuilder("i", "fab", youtubeAnchor);
   youtubeIcon.classList.add("fa-youtube", "fa-2x");
   
@@ -52,16 +66,7 @@ const footer = () => {
     copyrightCol
   );
   const date = new Date();
-  copyrightContent.innerHTML = `Copyright &COPY; ${date.getFullYear()} by GTS Sports.`;
-
-  //BACK TO TOP BUTTON
-
-  const topButtonAnchor = elementBuilder("a", "shadow", body);
-  topButtonAnchor.id = "back-to-top-button" 
-  topButtonAnchor.classList.add("btn-primary", "rounded-circle", "back-to-top");
-  topButtonAnchor.href = "#";
-  const topButtonIcon = elementBuilder("i", "fas", topButtonAnchor);
-  topButtonIcon.classList.add("fa-chevron-up");
+  copyrightContent.innerHTML = `Copyright &COPY; ${date.getFullYear()} by Garage Talk Sports.`;
 }
 
 export { footer }

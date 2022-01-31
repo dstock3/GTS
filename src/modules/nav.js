@@ -1,6 +1,6 @@
 import { elementBuilder, buttonBuilder, linkBuilder } from "./functions.js";
 import { links } from './data.js'
-import logo from '../assets/images/GTS_logo.png'
+import logo from '../assets/images/GTS_logo_shadow.png'
 
 const body = document.getElementsByTagName("body")[0];
 
@@ -36,21 +36,6 @@ const nav = () => {
   navBar.classList.add("navbar-collapse", "justify-content-end");
   navBar.id = "navbarNav"
   const ul = elementBuilder("ul", "navbar-nav", navBar);
-  
-  const emailButtonArray = buttonBuilder("rounded-pill", "span", containerDiv);
-  const emailButton = emailButtonArray[0];
-  emailButton.style.border ="2px solid #ff353a"
-  emailButton.classList.add("btn-rounded");
-  emailButton.id = "email-button"
-  const emailLink = elementBuilder("a", "email-link", emailButton)
-  emailLink.href = "mailto:dave@dstock.biz"
-  const emailSpan = emailButtonArray[1];
-  emailSpan.classList.add("email-span");
-  const emailSpanContent = elementBuilder("div", "email-text", emailLink)
-  emailSpanContent.innerHTML = "dave@dstock.biz";
-  const icon = elementBuilder("i", "fas", emailSpan);
-  icon.classList.add("fa-envelope-square");
-
   
   const linkElementArray = linkBuilder(links, ul, "nav-item");
 

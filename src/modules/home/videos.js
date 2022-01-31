@@ -12,12 +12,7 @@ const videos = () => {
   //Section Head
   const vidHead = elementBuilder("h1", "display-3", vidRow);
   vidHead.classList.add("fw-bold", "mt-4");
-  vidHead.innerHTML = "Videos";
-  const vidLine = elementBuilder("hr", "mx-auto", vidRow);
-  vidLine.setAttribute("style", "width: 100px; height: 3px; ");
-  const vidPara = elementBuilder("p", "lead", vidRow);
-  vidPara.classList.add("pt-1");
-  vidPara.innerHTML = "lorem ipsum lorem ipsum lorem ipsum";
+  vidHead.textContent = "Videos";
 
   //Videos
   const vidRow2 = elementBuilder("div", "row", vidContainer);

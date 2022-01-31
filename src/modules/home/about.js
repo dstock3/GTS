@@ -1,4 +1,4 @@
-import { elementBuilder, buttonBuilder, descriptionBuilder, waveGenerator, sectionBuilder } from "../functions.js";
+import { elementBuilder, buttonBuilder, descriptionBuilder, sectionBuilder } from "../functions.js";
 import { vidData, descArray } from "../data.js";
 
 const about = () => {
@@ -19,10 +19,13 @@ const about = () => {
   descriptionBuilder(descArray, headSpan2)
 
   const touchAnchor = elementBuilder("a", "get-in-touch", colAbout1);
-  touchAnchor.href = "mailto:dave@dstock.biz";
+  touchAnchor.href = "https://soundcloud.com/andrew-miller-92566355"
+  touchAnchor.target="_blank" 
+  touchAnchor.rel="noopener noreferrer"
+
   const touchButtonArray = buttonBuilder("rounded-pill", "span", touchAnchor);
   const touchButton = touchButtonArray[0];
-  const touchText = document.createTextNode("Get In Touch");
+  const touchText = document.createTextNode("Listen");
   touchButton.appendChild(touchText);
   touchButton.classList.add("btn-rounded");
   const touchSpan = touchButtonArray[1];
@@ -51,8 +54,6 @@ const about = () => {
   anchorSpan.id = "play-btn"
   const anchorIcon = elementBuilder("i", "fas", anchorSpan);
   anchorIcon.classList.add("fa-play-circle", "fa-5x");
-
-  
 
 }
 

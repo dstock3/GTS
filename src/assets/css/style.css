@@ -10754,7 +10754,7 @@ textarea.form-control-lg {
   line-height: 2.5rem;
 }
 .btn-rounded:hover {
-  background: linear-gradient(to right, rgba(85, 128, 255, 0.95), rgba(255, 53, 58, 0.95));
+  background: #5580ff;
   color: #fff;
 }
 .btn-rounded:hover span {
@@ -10803,15 +10803,19 @@ textarea.form-control-lg {
   }
 }
 
+@font-face {
+  font-family: "Anton";
+  src: url("../../assets/fonts/Anton-Regular.ttf") format("ttf");
+}
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anton", sans-serif;
 }
 .display-2--intro {
   display: inline-block;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anton", sans-serif;
 }
 .display-2--description {
   font-size: 1rem;
@@ -10847,13 +10851,13 @@ textarea.form-control-lg {
 }
 
 .display-3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Anton", sans-serif;
 }
 .display-3--title {
   font-size: 1.2rem;
   text-transform: capitalize;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anton", sans-serif;
   display: inline-block;
   background-image: linear-gradient(to right, #5580ff, #ff353a);
   background-clip: text;
@@ -10910,15 +10914,6 @@ textarea.form-control-lg {
 @media (max-width: 767.98px) {
   .logo {
     max-width: 125px;
-  }
-}
-
-.logo:hover {
-  max-width: 225px;
-}
-@media (max-width: 767.98px) {
-  .logo:hover {
-    max-width: 150px;
   }
 }
 

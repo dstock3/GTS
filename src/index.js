@@ -13,7 +13,7 @@ import { about } from './modules/home/about.js'
 import { videos } from './modules/home/videos'
 import { footer } from './modules/footer'
 import { nav } from './modules/nav'
-import favicon from './assets/images/favicon.png'
+import favicon from './assets/images/GTS_favicon.png'
 import { GBox } from './assets/vendors/js/glightbox.js'
 
 library.add(fas, far, fab) 

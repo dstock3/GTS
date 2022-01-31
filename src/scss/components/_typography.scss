@@ -1,14 +1,19 @@
 @use "../custom" as *;
 
+@font-face {
+  font-family: 'Anton';
+  src: url('../../assets/fonts/Anton-Regular.ttf') format('ttf');
+}
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
+  font-family: "Anton", sans-serif;
 
   &--intro {
     display: inline-block;
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: "Anton", sans-serif;
   }
 
   &--description {
@@ -44,13 +49,13 @@
 }
 
 .display-3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Anton", sans-serif;
 
   &--title {
     font-size: 1.2rem;
     text-transform: capitalize;
     font-weight: 600;
-    font-family: "Poppins", sans-serif;
+    font-family: "Anton", sans-serif;
     display: inline-block;
     background-image: linear-gradient(to right, $primary, $secondary);
     background-clip: text;

@@ -28,7 +28,7 @@
   }
 
   &:hover {
-    @include gradient;
+    background: $primary;
     color: $white;
 
     span {

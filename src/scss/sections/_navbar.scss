@@ -38,15 +38,6 @@
 
 }
 
-.logo:hover {
-  max-width: 225px;
-
-  @include media-breakpoint-down(md) {
-    max-width: 150px;
-  }
-
-}
-
 .nav-item {
   color: $primary;
   
