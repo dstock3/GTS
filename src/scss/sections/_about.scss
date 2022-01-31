@@ -13,10 +13,6 @@
 
   padding-bottom: 50px;
 
-  @include media-breakpoint-down(md) {
-    padding: 7rem 0 0 0;
-  }
-
   .get-in-touch {
     text-decoration: none;
   }
