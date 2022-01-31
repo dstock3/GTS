@@ -7,7 +7,7 @@ const videos = () => {
   const vidSection = vidElements[0];
   const vidContainer = vidElements[1];
   const vidRow = vidElements[2];
-  vidRow.classList.add("text-center", "text-white");
+  vidRow.classList.add("text-center", "text-dark");
 
   //Section Head
   const vidHead = elementBuilder("h1", "display-3", vidRow);
@@ -36,15 +36,17 @@ const videos = () => {
   const buttonDiv = elementBuilder("div", "text-center", vidRow2);
   buttonDiv.classList.add("button-container");
   const prevButton = elementBuilder("button", "btn", buttonDiv);
-  prevButton.classList.add("btn-outline-light", "fas", "fa-long-arrow-alt-left");
+  prevButton.classList.add("btn-outline-dark", "fas", "fa-long-arrow-alt-left");
   prevButton.type = "button";
   prevButton.setAttribute("data-bs-target", "#carouselExampleCaptions");
   prevButton.setAttribute("data-bs-slide", "prev");
+  prevButton.style.boxSizing = "unset"
   const nextButton = elementBuilder("button", "btn", buttonDiv);
-  nextButton.classList.add("btn-outline-light", "fas", "fa-long-arrow-alt-right");
+  nextButton.classList.add("btn-outline-dark", "fas", "fa-long-arrow-alt-right");
   nextButton.type = "button";
   nextButton.setAttribute("data-bs-target", "#carouselExampleCaptions");
   nextButton.setAttribute("data-bs-slide", "next");
+  nextButton.style.boxSizing = "unset"
 }
 
 export { videos }

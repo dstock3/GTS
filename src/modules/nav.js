@@ -1,6 +1,6 @@
 import { elementBuilder, buttonBuilder, linkBuilder } from "./functions.js";
 import { links } from './data.js'
-import logo from '../assets/images/d.png'
+import logo from '../assets/images/GTS_logo.png'
 
 const body = document.getElementsByTagName("body")[0];
 
@@ -11,7 +11,7 @@ const nav = () => {
   logoAnchor.href = "#";
   const logoImage = elementBuilder("img", "logo", logoAnchor);
   logoImage.src = logo;
-  
+
   const buttonArray = buttonBuilder(
     "navbar-toggler",
     "navbar-toggler-icon",
@@ -27,7 +27,7 @@ const nav = () => {
   
   nav.classList.add(
     "navbar-expand-lg",
-    "navbar-dark",
+    "navbar-light",
     "menu",
     "shadow",
     "fixed-top"
@@ -39,6 +39,7 @@ const nav = () => {
   
   const emailButtonArray = buttonBuilder("rounded-pill", "span", containerDiv);
   const emailButton = emailButtonArray[0];
+  emailButton.style.border ="2px solid #ff353a"
   emailButton.classList.add("btn-rounded");
   emailButton.id = "email-button"
   const emailLink = elementBuilder("a", "email-link", emailButton)
@@ -52,9 +53,10 @@ const nav = () => {
 
   
   const linkElementArray = linkBuilder(links, ul, "nav-item");
-  
+
   for (let i = 0; i < linkElementArray.length; i++) {
-    linkElementArray[i].classList.add("text-white");
+    linkElementArray[i].style.color = "#ff353a"
+
   }
   
 }

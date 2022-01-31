@@ -1,14 +1,13 @@
 {
-  "name": "portfolio",
+  "name": "GTS Sports",
   "version": "1.0.0",
-  "description": "my website portfolio",
+  "description": "",
   "scripts": {
     "compile:sass": "sass --watch src/scss:src/assets/css",
     "build": "webpack"
   },
   "private": true,
   "keywords": [
-    "portfolio",
     "webdev",
     "web",
     "development",

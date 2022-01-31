@@ -16,36 +16,30 @@ const footer = () => {
   socialRow.classList.add("py-4", "text-center", "text-white");
   const socialCol = elementBuilder("div", "col-lg-5", socialRow);
   socialCol.classList.add("col-md-5", "mb-3", "mb-0");
-  socialCol.innerHTML = "Connect with Me on Social Media";
+  socialCol.innerHTML = "Connect with Us on Social Media";
   const socialIcons = elementBuilder("div", "col-lg-6", socialRow);
   socialIcons.id = "social-media"
 
-  /*
+  const soundcloudAnchor = elementBuilder("a", "social-media-links", socialIcons);
+  soundcloudAnchor.href = "https://soundcloud.com/andrew-miller-92566355"; 
+  const soundcloudIcon = elementBuilder("i", "fab", soundcloudAnchor);
+  soundcloudIcon.classList.add("fa-soundcloud", "fa-2x");
+
+  const twitterAnchor = elementBuilder("a", "social-media-links", socialIcons);
+  twitterAnchor.href = "https://twitter.com/gtspodcast1"; 
+  const twitterIcon = elementBuilder("i", "fab", twitterAnchor);
+  twitterIcon.classList.add("fa-twitter", "fa-2x");
+
   const facebookAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  facebookAnchor.href = ""; //Need to enter my facebook when complete
+  facebookAnchor.href = "https://www.facebook.com/pages/category/Sports/Garage-Talk-Sports-110950621066022/"; 
   const facebookIcon = elementBuilder("i", "fab", facebookAnchor);
-  facebookIcon.classList.add("fa-facebook");
+  facebookIcon.classList.add("fa-facebook", "fa-2x");
 
   const youtubeAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  youtubeAnchor.href = ""; //Need to enter my linkedin when complete
+  youtubeAnchor.href = "https://www.youtube.com/channel/UC8-PDeILSrtgQlKsZcrY-LQ"; 
   const youtubeIcon = elementBuilder("i", "fab", youtubeAnchor);
-  youtubeIcon.classList.add("fa-youtube");
-  */
-
-  const githubAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  githubAnchor.href = "https://github.com/dstock3";
-  githubAnchor.rel = "noreferrer noopener";
-  githubAnchor.target = "blank";
-  const githubIcon = elementBuilder("i", "fab", githubAnchor);
-  githubIcon.classList.add("fa-github", "fa-2x");
-
-  const linkedAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  linkedAnchor.href = "https://www.linkedin.com/in/stockdale/";
-  linkedAnchor.rel = "noreferrer noopener";
-  linkedAnchor.target = "blank";
-  const linkedIcon = elementBuilder("i", "fab", linkedAnchor);
-  linkedIcon.classList.add("fa-linkedin", "fa-2x");
-
+  youtubeIcon.classList.add("fa-youtube", "fa-2x");
+  
   const copyrightDiv = elementBuilder("div", "footer-bottom", body);
   copyrightDiv.classList.add("pt-5", "pb-5");
   const copyrightContainer = elementBuilder("div", "container", copyrightDiv);
@@ -58,7 +52,7 @@ const footer = () => {
     copyrightCol
   );
   const date = new Date();
-  copyrightContent.innerHTML = `Copyright &COPY; ${date.getFullYear()} by David Stockdale.`;
+  copyrightContent.innerHTML = `Copyright &COPY; ${date.getFullYear()} by GTS Sports.`;
 
   //BACK TO TOP BUTTON
 

@@ -10,10 +10,6 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { about } from './modules/home/about.js'
-import { blog } from './modules/home/blog'
-import { contact } from './modules/home/contact'
-import { projects } from './modules/home/projects'
-import { tech } from './modules/home/tech'
 import { videos } from './modules/home/videos'
 import { footer } from './modules/footer'
 import { nav } from './modules/nav'
@@ -31,9 +27,5 @@ head.appendChild(link)
 
 nav()
 about()
-projects()
-tech()
-//blog()
-//videos()
-//contact()
+videos()
 footer()

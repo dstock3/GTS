@@ -2,10 +2,16 @@
 @use "../components/mixins" as *;
 
 .about {
-  @include gradient;
+  background: rgb(255,53,58);
+  background: -moz-linear-gradient(180deg, rgba(255,53,58,1) 74%, rgba(168,42,42,1) 98%);
+  background: -webkit-linear-gradient(180deg, rgba(255,53,58,1) 74%, rgba(168,42,42,1) 98%);
+  background: linear-gradient(180deg, rgba(255,53,58,1) 74%, rgba(168,42,42,1) 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff353a",endColorstr="#a82a2a",GradientType=1);
   padding: 10rem 0 0 0;
   width: 100%;
   height: 100%;
+
+  padding-bottom: 50px;
 
   @include media-breakpoint-down(md) {
     padding: 7rem 0 0 0;
@@ -21,6 +27,19 @@
     margin-bottom: 15px;
   }
   
+}
+
+#play-btn {
+  position: relative;
+  top: 45px;
+  color: white;
+  transition: 500ms;
+
+}
+
+#play-btn:hover {
+  color: $primary;
+
 }
 
 pre {
@@ -43,23 +62,5 @@ pre {
         }
       }
     }
-  }
-}
-
-.border-animation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 6rem;
-  height: 6rem;
-  border: 0.55rem solid $white;
-  border-radius: 50%;
-  animation: pulse-border 1.5s linear infinite;
-
-  &--border-1 {
-    animation-delay: 1s;
-  }
-  &--border-2 {
-    animation-delay: 1.5s;
   }
 }

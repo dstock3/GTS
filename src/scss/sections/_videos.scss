@@ -4,15 +4,29 @@
 .videos {
   position: relative;
   padding: 0;
-  @include gradient;
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(207,207,207,1) 92%);
+  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(207,207,207,1) 92%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(207,207,207,1) 92%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cfcfcf",GradientType=1);
+
+  color: white;
 
   &__vid {
-    background-color: rgba($white, 0.8);
+    background: rgb(85,128,255);
+    background: -moz-linear-gradient(180deg, rgba(85,128,255,1) 65%, rgba(64,77,255,1) 96%);
+    background: -webkit-linear-gradient(180deg, rgba(85,128,255,1) 65%, rgba(64,77,255,1) 96%);
+    background: linear-gradient(180deg, rgba(85,128,255,1) 65%, rgba(64,77,255,1) 96%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5580ff",endColorstr="#404dff",GradientType=1);
     padding: 2rem 1.25rem;
     border-radius: 0.625rem;
     height: auto;
     text-align: center;
     width: 75%;
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
 
     .vid-container {
       width: 100%;
@@ -44,6 +58,7 @@
 
     .btn {
       padding: 15px;
+
     }
   }
 }
