@@ -80,11 +80,14 @@ function allButtonListener(button, projectArray, projBodyRow) {
 function techBuilder(rowTech, techArray) {
   let imageElementArray = [];
   for (let i = 0; i < techArray.length; i++) {
-    let techCol = elementBuilder("div", "tech-item", rowTech);
+    let techCol = elementBuilder("a", "tech-item", rowTech);
+    techCol.href = techArray[i].link;
+    techCol.target="_blank" 
+    techCol.rel="noopener noreferrer"
     techCol.classList.add("col-lg-2",  "col-md-4");
     let techDiv = elementBuilder("div", "tech__logo-box", techCol);
-    let techImage = elementBuilder("img", "img-fluid", techDiv);
-    techImage.setAttribute("src", `${techArray[i].source}`);
+    let techImage = elementBuilder("i", "img-fluid", techDiv);
+    techImage.classList.add(techArray[i].source, "fab", "fa-5x")
     techImage.setAttribute("alt", `${techArray[i].alt}`);
     techImage.setAttribute("id", `${techArray[i].id}`);
     imageElementArray.push(techImage);

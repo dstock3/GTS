@@ -10741,12 +10741,13 @@ textarea.form-control-lg {
 .btn-rounded span {
   position: absolute;
   background-color: #5580ff;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.25rem;
+  height: 2.25rem;
   top: 50%;
   right: 5px;
   transform: translateY(-50%);
   border-radius: 50%;
+  transition: 500ms;
 }
 .btn-rounded span i {
   color: #fff;
@@ -10766,12 +10767,6 @@ textarea.form-control-lg {
   justify-content: center;
   align-items: center;
   color: white;
-}
-
-#back-to-top-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #email-button {
@@ -10983,18 +10978,18 @@ pre {
   position: relative;
   padding: 0;
   background: white;
-  background: -moz-linear-gradient(180deg, white 54%, #cfcfcf 92%);
-  background: -webkit-linear-gradient(180deg, white 54%, #cfcfcf 92%);
-  background: linear-gradient(180deg, white 54%, #cfcfcf 92%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cfcfcf",GradientType=1);
+  background: -moz-linear-gradient(180deg, white 67%, #aaaaaa 100%);
+  background: -webkit-linear-gradient(180deg, white 67%, #aaaaaa 100%);
+  background: linear-gradient(180deg, white 67%, #aaaaaa 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aaaaaa",GradientType=1);
   color: white;
 }
 .videos__vid {
   background: #5580ff;
-  background: -moz-linear-gradient(180deg, #5580ff 65%, #404dff 96%);
-  background: -webkit-linear-gradient(180deg, #5580ff 65%, #404dff 96%);
-  background: linear-gradient(180deg, #5580ff 65%, #404dff 96%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5580ff",endColorstr="#404dff",GradientType=1);
+  background: -moz-radial-gradient(circle, #5580ff 57%, #3b57ab 100%);
+  background: -webkit-radial-gradient(circle, #5580ff 57%, #3b57ab 100%);
+  background: radial-gradient(circle, #5580ff 57%, #3b57ab 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5580ff",endColorstr="#3b57ab",GradientType=1);
   padding: 2rem 1.25rem;
   border-radius: 0.625rem;
   height: auto;
@@ -11008,6 +11003,17 @@ pre {
 }
 .videos__vid .vid-container {
   width: 100%;
+}
+@media (max-width: 767.98px) {
+  .videos__vid .vid-container {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .videos__vid .vid-container iframe {
+    width: 325px;
+    height: 183px;
+  }
 }
 .videos__vid .vid-title {
   padding-inline: 10%;
@@ -11030,6 +11036,51 @@ pre {
 }
 .videos .button-container .btn {
   padding: 15px;
+}
+
+.tech {
+  background-color: #fff;
+  padding: 2rem 0 3rem 0;
+}
+.tech .tech-row {
+  display: flex;
+  justify-content: center;
+}
+.tech .tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  color: #ff353a;
+  transition: 500ms;
+  text-decoration: none;
+}
+.tech .tech-item .tech-des {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.tech .tech-item:hover {
+  color: #5580ff;
+}
+.tech__logo-box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.tech img {
+  min-width: 100px;
+  max-height: 85px;
+}
+.tech img:hover {
+  transform: scale(1.2);
+  transition-duration: 1s;
+  transition-property: all;
+  filter: grayscale(110);
 }
 
 .footer {

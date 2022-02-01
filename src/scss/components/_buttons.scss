@@ -13,12 +13,13 @@
   span {
     position: absolute;
     background-color: $primary;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 2.25rem;
+    height: 2.25rem;
     top: 50%;
     right: 5px;
     transform: translateY(-50%);
     border-radius: 50%;
+    transition: 500ms;
 
     i {
       color: $white;
@@ -42,12 +43,6 @@
   justify-content: center;
   align-items: center;
   color: white;
-}
-
-#back-to-top-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #email-button {

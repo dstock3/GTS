@@ -5,19 +5,19 @@
   position: relative;
   padding: 0;
   background: rgb(255,255,255);
-  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(207,207,207,1) 92%);
-  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(207,207,207,1) 92%);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(207,207,207,1) 92%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cfcfcf",GradientType=1);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 67%, rgba(170,170,170,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 67%, rgba(170,170,170,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 67%, rgba(170,170,170,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#aaaaaa",GradientType=1);
 
   color: white;
 
   &__vid {
     background: rgb(85,128,255);
-    background: -moz-linear-gradient(180deg, rgba(85,128,255,1) 65%, rgba(64,77,255,1) 96%);
-    background: -webkit-linear-gradient(180deg, rgba(85,128,255,1) 65%, rgba(64,77,255,1) 96%);
-    background: linear-gradient(180deg, rgba(85,128,255,1) 65%, rgba(64,77,255,1) 96%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5580ff",endColorstr="#404dff",GradientType=1);
+    background: -moz-radial-gradient(circle, rgba(85,128,255,1) 57%, rgba(59,87,171,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(85,128,255,1) 57%, rgba(59,87,171,1) 100%);
+    background: radial-gradient(circle, rgba(85,128,255,1) 57%, rgba(59,87,171,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5580ff",endColorstr="#3b57ab",GradientType=1);
     padding: 2rem 1.25rem;
     border-radius: 0.625rem;
     height: auto;
@@ -30,6 +30,17 @@
 
     .vid-container {
       width: 100%;
+
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+
+      iframe {
+        @include media-breakpoint-down(md) {
+          width: 325px;
+          height: 183px;
+        }
+      }
     }
 
     .vid-title {

@@ -13,6 +13,7 @@ import { about } from './modules/home/about.js'
 import { videos } from './modules/home/videos'
 import { footer } from './modules/footer'
 import { nav } from './modules/nav'
+import { tech } from './modules/home/tech.js'
 import favicon from './assets/images/GTS_favicon.png'
 import { GBox } from './assets/vendors/js/glightbox.js'
 
@@ -28,6 +29,7 @@ head.appendChild(link)
 
 nav()
 about()
+tech()
 videos()
 footer()
 

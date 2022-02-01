@@ -3,18 +3,32 @@
 
 .tech {
   background-color: $white;
-  padding: 0 0 5rem 0;
+  padding: 2rem 0 3rem 0;
+
+  .tech-row {
+    display: flex;
+    justify-content: center;
+  }
 
   .tech-item {
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    color: $secondary;
+    transition: 500ms;
+    text-decoration: none;
 
     .tech-des {
-      margin-top: 25px;
+      margin-top: 15px;
       text-align: center;
       font-weight: bold;
     }
+  }
+
+  .tech-item:hover {
+    color: $primary;
   }
 
   &__logo-box {

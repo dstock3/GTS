@@ -19,20 +19,6 @@ const footer = () => {
   const socialIcons = elementBuilder("div", "col-lg-6", socialRow);
   socialIcons.id = "social-media"
 
-  const soundcloudAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  soundcloudAnchor.href = "https://soundcloud.com/andrew-miller-92566355"; 
-  const soundcloudIcon = elementBuilder("i", "fab", soundcloudAnchor);
-  soundcloudIcon.classList.add("fa-soundcloud", "fa-2x");
-  soundcloudIcon.target="_blank" 
-  soundcloudIcon.rel="noopener noreferrer"
-
-  const spotifyAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  spotifyAnchor.href = "https://open.spotify.com/show/3pJSKX8ymOpTZ1erLjRuzJ";
-  spotifyAnchor.target="_blank" 
-  spotifyAnchor.rel="noopener noreferrer"
-  const spotifyIcon = elementBuilder("i", "fab", spotifyAnchor);
-  spotifyIcon.classList.add("fa-spotify", "fa-2x");
-
   const twitterAnchor = elementBuilder("a", "social-media-links", socialIcons);
   twitterAnchor.href = "https://twitter.com/gtspodcast1";
   twitterAnchor.target="_blank" 
@@ -47,13 +33,6 @@ const footer = () => {
   const facebookIcon = elementBuilder("i", "fab", facebookAnchor);
   facebookIcon.classList.add("fa-facebook", "fa-2x");
 
-  const youtubeAnchor = elementBuilder("a", "social-media-links", socialIcons);
-  youtubeAnchor.href = "https://www.youtube.com/channel/UC8-PDeILSrtgQlKsZcrY-LQ";
-  youtubeAnchor.target="_blank" 
-  youtubeAnchor.rel="noopener noreferrer"
-  const youtubeIcon = elementBuilder("i", "fab", youtubeAnchor);
-  youtubeIcon.classList.add("fa-youtube", "fa-2x");
-  
   const copyrightDiv = elementBuilder("div", "footer-bottom", body);
   copyrightDiv.classList.add("pt-5", "pb-5");
   const copyrightContainer = elementBuilder("div", "container", copyrightDiv);

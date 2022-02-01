@@ -26,6 +26,35 @@ const desc2 = `Give us a listen!`
 
 const descArray = [desc, desc2]
 
+//PodArray
+
+const soundcloud = {
+  source: "fa-soundcloud",
+  title: "SoundCloud",
+  alt: `SoundCloud logo`,
+  id: `soundcloud`,
+  link: "https://soundcloud.com/andrew-miller-92566355"
+};
+
+const spotify = {
+  source: "fa-spotify",
+  title: "Spotify",
+  alt: `Spotify logo`,
+  id: `spotify`,
+  link: "https://open.spotify.com/show/3pJSKX8ymOpTZ1erLjRuzJ"
+};
+
+const youtube = {
+  source: "fa-youtube",
+  title: "YouTube",
+  alt: `YouTube logo`,
+  id: `youtube`,
+  link: "https://www.youtube.com/channel/UC8-PDeILSrtgQlKsZcrY-LQ"
+  
+}
+
+const techArray = [soundcloud, spotify, youtube]
+
 //Video Carousel
 
 const vidOne = {
@@ -60,4 +89,4 @@ const vidFive = {
 
 const carouselVidArray = [vidOne, vidTwo, vidThree, vidFour, vidFive];
 
-export { links, descArray, vidData, carouselVidArray }
+export { links, descArray, vidData, techArray, carouselVidArray }
