@@ -37,8 +37,8 @@
 
       iframe {
         @include media-breakpoint-down(md) {
-          width: 325px;
-          height: 183px;
+          width: 295px;
+          height: 167px;
         }
       }
     }
@@ -58,11 +58,15 @@
     padding: 1.5%;
 
     .fa-long-arrow-alt-left {
+      height: 30px;
+      width: 40px;
       position: relative;
       right: 0.25%;
     }
 
     .fa-long-arrow-alt-right {
+      height: 30px;
+      width: 40px;
       position: relative;
       left: 0.25%;
     }

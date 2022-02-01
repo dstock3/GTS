@@ -11011,8 +11011,8 @@ pre {
 }
 @media (max-width: 767.98px) {
   .videos__vid .vid-container iframe {
-    width: 325px;
-    height: 183px;
+    width: 295px;
+    height: 167px;
   }
 }
 .videos__vid .vid-title {
@@ -11027,10 +11027,14 @@ pre {
   padding: 1.5%;
 }
 .videos .button-container .fa-long-arrow-alt-left {
+  height: 30px;
+  width: 40px;
   position: relative;
   right: 0.25%;
 }
 .videos .button-container .fa-long-arrow-alt-right {
+  height: 30px;
+  width: 40px;
   position: relative;
   left: 0.25%;
 }

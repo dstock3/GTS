@@ -21,8 +21,8 @@ const vidData = {
 
 }
 
-const desc = `We're three friends that hangout in a garage talking sports.`
-const desc2 = `Give us a listen!`
+const desc = `We're three friends that hangout in a`
+const desc2 = `garage talking sports. Give us a listen!`
 
 const descArray = [desc, desc2]
 
@@ -87,6 +87,20 @@ const vidFive = {
   description: `This week we recap week 15 in the NFL, Bobby's bets, our takes on the refs and much more.`,
 };
 
-const carouselVidArray = [vidOne, vidTwo, vidThree, vidFour, vidFive];
+const vidSix = {
+  title: `GTS Episode 39`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/EhatkM36BFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
+};
+
+const vidSeven = {
+  title: `GTS Episode 38`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/MF5M21vL4hY title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  description: `This week we recap week 13 of the NFL, College football championship weekend, MLB lockout and of course Bobby's bet.`,
+};
+
+
+
+const carouselVidArray = [vidOne, vidTwo, vidThree, vidFour, vidFive, vidSix, vidSeven];
 
 export { links, descArray, vidData, techArray, carouselVidArray }
