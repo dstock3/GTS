@@ -45,7 +45,7 @@ const techArray = [soundcloud, spotify, youtube]
 const ep45 = {
   title: `GTS Episode 45`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/f04iCnYJuKs?autoplay=1" 
-      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/f04iCnYJuKs?autoplay=1><img src=https://img.youtube.com/vi/f04iCnYJuKs/hqdefault.jpg  alt='GTS Episode 45'><span>▶</span></a>"
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/f04iCnYJuKs?autoplay=1><img src=https://img.youtube.com/vi/f04iCnYJuKs/hqdefault.jpg  alt='GTS Episode 45'><span>&#x25BA</span></a>"
       title="GTS Episode 45" 
       frameborder="0" 
       allow="accelerometer; 
@@ -61,7 +61,7 @@ const ep45 = {
 const ep44 = {
   title: `GTS Episode 44`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/wUobcylSX74?autoplay=1" 
-      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wUobcylSX74?autoplay=1><img src=https://img.youtube.com/vi/wUobcylSX74/hqdefault.jpg alt='GTS Episode 44'><span>▶</span></a>"
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wUobcylSX74?autoplay=1><img src=https://img.youtube.com/vi/wUobcylSX74/hqdefault.jpg alt='GTS Episode 44'><span>&#x25BA</span></a>"
       
       title="GTS Episode 44" 
       frameborder="0" 
@@ -79,7 +79,7 @@ const ep44 = {
 const ep43 = {
   title: `GTS Episode 43`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/4JcnJLNMxpA" 
-  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/4JcnJLNMxpA?autoplay=1><img src=https://img.youtube.com/vi/4JcnJLNMxpA/hqdefault.jpg alt='GTS Episode 43'><span>▶</span></a>"
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/4JcnJLNMxpA?autoplay=1><img src=https://img.youtube.com/vi/4JcnJLNMxpA/hqdefault.jpg alt='GTS Episode 43'><span>&#x25BA</span></a>"
 
     title="GTS Episode 43" 
     frameborder="0" 
@@ -97,7 +97,7 @@ const ep43 = {
 const ep41 = {
   title: `GTS Episode 41`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Nyq-nR939X4" 
-  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/Nyq-nR939X4?autoplay=1><img src=https://img.youtube.com/vi/Nyq-nR939X4/hqdefault.jpg alt='GTS Episode 41'><span>▶</span></a>"
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/Nyq-nR939X4?autoplay=1><img src=https://img.youtube.com/vi/Nyq-nR939X4/hqdefault.jpg alt='GTS Episode 41'><span>&#x25BA</span></a>"
 
     title="GTS Episode 41" 
     frameborder="0" 
@@ -115,7 +115,7 @@ const ep41 = {
 const ep40 = {
   title: `GTS Episode 40`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/SQAknZn4vDg" 
-  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/SQAknZn4vDg?autoplay=1><img src=https://img.youtube.com/vi/SQAknZn4vDg/hqdefault.jpg alt='GTS Episode 40'><span>▶</span></a>"
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/SQAknZn4vDg?autoplay=1><img src=https://img.youtube.com/vi/SQAknZn4vDg/hqdefault.jpg alt='GTS Episode 40'><span>&#x25BA</span></a>"
   
     title="GTS Episode 40" 
     frameborder="0" 
@@ -133,7 +133,7 @@ const ep40 = {
 const ep39 = {
   title: `GTS Episode 39`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/EhatkM36BFU" 
-  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/EhatkM36BFU?autoplay=1><img src=https://img.youtube.com/vi/EhatkM36BFU/hqdefault.jpg alt='GTS Episode 39'><span>▶</span></a>"
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/EhatkM36BFU?autoplay=1><img src=https://img.youtube.com/vi/EhatkM36BFU/hqdefault.jpg alt='GTS Episode 39'><span>&#x25BA</span></a>"
   
     title="GTS Episode 39" 
     frameborder="0" 
