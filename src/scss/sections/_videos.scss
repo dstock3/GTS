@@ -1,6 +1,8 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
+
+
 .videos {
   position: relative;
   padding: 0;
@@ -46,6 +48,9 @@
     .vid-title {
       padding-inline: 10%;
       padding-bottom: 2%;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-shadow: 3px 3px #79000285;
     }
 
     p {
@@ -55,7 +60,7 @@
   }
 
   .button-container {
-    padding: 1.5%;
+    padding: 1.25%;
 
     .fa-long-arrow-alt-left {
       height: 30px;

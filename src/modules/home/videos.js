@@ -9,11 +9,6 @@ const videos = () => {
   const vidRow = vidElements[2];
   vidRow.classList.add("text-center", "text-dark");
 
-  //Section Head
-  const vidHead = elementBuilder("h1", "display-3", vidRow);
-  vidHead.classList.add("fw-bold", "mt-4");
-  vidHead.textContent = "Videos";
-
   //Videos
   const vidRow2 = elementBuilder("div", "row", vidContainer);
   vidRow2.classList.add("align-items-center");
@@ -21,6 +16,7 @@ const videos = () => {
   carouselDiv.classList.add("slide");
   carouselDiv.setAttribute("id", "carouselExampleCaptions");
   carouselDiv.setAttribute("data-bs-ride", "carousel");
+  carouselDiv.setAttribute("data-bs-interval", false)
   const carouselInnerDiv = elementBuilder("div", "carousel-inner", carouselDiv);
   const carouselElementArray = carouselBuilder(
     carouselVidArray,

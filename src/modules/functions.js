@@ -25,7 +25,6 @@ function linkBuilder(linkArray, ulVar, className, openNewTab) {
 
 function sectionBuilder(sectionName) {
   let section = elementBuilder("section", sectionName, body);
-  section.setAttribute("id", sectionName);
   let sectionContainer = elementBuilder("div", "container", section);
   let sectionRow = elementBuilder("div", "row", sectionContainer);
   let sectionElements = [section, sectionContainer, sectionRow];
@@ -66,13 +65,6 @@ function descriptionBuilder(descArray, parent) {
 
   }
 
-}
-
-function allButtonListener(button, projectArray, projBodyRow) {
-  button.addEventListener("click", () => {
-    projectColRemover();
-    return projectIterator(projectArray, projBodyRow);
-  });
 }
 
 //Technologies Builder

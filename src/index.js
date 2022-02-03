@@ -42,3 +42,9 @@ const lightbox = GLightbox({
     width: 900,
     autoPlayVideos: "true",
   });
+
+let images = Array.from(document.querySelectorAll("img"))
+for (let i = 0; i < images.length; i++) {
+  images[i].classList.add("lazyload")
+
+}

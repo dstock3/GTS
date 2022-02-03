@@ -1,24 +1,9 @@
-import gtsMain from '../assets/images/GTS_shadow.png'
-
-//Nav Info
-
-const about = {
-  name: "About",
-  link: "index.html#about",
-};
-
-const videos = {
-  name: "Videos",
-  link: "index.html#videos",
-};
-
-const links = [about, videos];
+import gtsMain from '../assets/images/GTS_smaller.webp'
 
 //Video Illus
 const vidData = {
   source: gtsMain,
   alt: "GTS Logo"
-
 }
 
 const desc = `We're three friends that hangout in a`
@@ -57,50 +42,112 @@ const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
 
-const vidOne = {
+const ep45 = {
   title: `GTS Episode 45`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/f04iCnYJuKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/f04iCnYJuKs?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/f04iCnYJuKs?autoplay=1><img src=https://img.youtube.com/vi/f04iCnYJuKs/hqdefault.jpg  alt='GTS Episode 45'><span>▶</span></a>"
+      title="GTS Episode 45" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
   description: `This week we recap NFL divisional round, Preview the championship games and big moves with Coaches going on around the league.`,
 };
 
-const vidTwo = {
+const ep44 = {
   title: `GTS Episode 44`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/wUobcylSX74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/wUobcylSX74?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/wUobcylSX74?autoplay=1><img src=https://img.youtube.com/vi/wUobcylSX74/hqdefault.jpg alt='GTS Episode 44'><span>▶</span></a>"
+      
+      title="GTS Episode 44" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    
+      </iframe>`,
   description: `This week We recap Super Wild Card Weekend, Our predictions for the Divisional Round, coaching moves around the league and of course Bears watch 2022.`,
 };
 
-const vidThree = {
+const ep43 = {
   title: `GTS Episode 43`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/4JcnJLNMxpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/4JcnJLNMxpA" 
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/4JcnJLNMxpA?autoplay=1><img src=https://img.youtube.com/vi/4JcnJLNMxpA/hqdefault.jpg alt='GTS Episode 43'><span>▶</span></a>"
+
+    title="GTS Episode 43" 
+    frameborder="0" 
+    allow="accelerometer; 
+    autoplay; clipboard-write; 
+    encrypted-media; gyroscope;
+    loading="lazy";
+    picture-in-picture" 
+    allowfullscreen>
+
+  </iframe>`,
   description: `This week we recap  College Football National Championship, Week 18 of the NFL, we preview Super Wildcard Weekend, and Black Monday.`,
 };
 
-const vidFour = {
+const ep41 = {
   title: `GTS Episode 41`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Nyq-nR939X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Nyq-nR939X4" 
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/Nyq-nR939X4?autoplay=1><img src=https://img.youtube.com/vi/Nyq-nR939X4/hqdefault.jpg alt='GTS Episode 41'><span>▶</span></a>"
+
+    title="GTS Episode 41" 
+    frameborder="0" 
+    allow="accelerometer; 
+    autoplay; clipboard-write; 
+    encrypted-media; gyroscope;
+    loading="lazy";
+    picture-in-picture" 
+    allowfullscreen>
+
+  </iframe>`,
   description: `This week we recap big moments in week 16 of the NFL, College football playoffs match ups, Bobby's bets and much more.`,
 };
 
-const vidFive = {
+const ep40 = {
   title: `GTS Episode 40`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/SQAknZn4vDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/SQAknZn4vDg" 
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/SQAknZn4vDg?autoplay=1><img src=https://img.youtube.com/vi/SQAknZn4vDg/hqdefault.jpg alt='GTS Episode 40'><span>▶</span></a>"
+  
+    title="GTS Episode 40" 
+    frameborder="0" 
+    allow="accelerometer; 
+    autoplay; clipboard-write; 
+    encrypted-media; gyroscope;
+    loading="lazy";
+    picture-in-picture" 
+    allowfullscreen>
+  
+  </iframe>`,
   description: `This week we recap week 15 in the NFL, Bobby's bets, our takes on the refs and much more.`,
 };
 
-const vidSix = {
+const ep39 = {
   title: `GTS Episode 39`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/EhatkM36BFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/EhatkM36BFU" 
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/EhatkM36BFU?autoplay=1><img src=https://img.youtube.com/vi/EhatkM36BFU/hqdefault.jpg alt='GTS Episode 39'><span>▶</span></a>"
+  
+    title="GTS Episode 39" 
+    frameborder="0" 
+    allow="accelerometer; 
+    autoplay; clipboard-write; 
+    encrypted-media; gyroscope;
+    loading="lazy";
+    picture-in-picture" 
+    allowfullscreen>
+  
+  </iframe>`,
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const vidSeven = {
-  title: `GTS Episode 38`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/MF5M21vL4hY title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-  description: `This week we recap week 13 of the NFL, College football championship weekend, MLB lockout and of course Bobby's bet.`,
-};
+const carouselVidArray = [ep45, ep44, ep43, ep41, ep40, ep39];
 
-
-
-const carouselVidArray = [vidOne, vidTwo, vidThree, vidFour, vidFive, vidSix, vidSeven];
-
-export { links, descArray, vidData, techArray, carouselVidArray }
+export { descArray, vidData, techArray, carouselVidArray }

@@ -1,4 +1,4 @@
-import { elementBuilder, techBuilder, sectionBuilder } from "../functions.js";
+import { techBuilder, sectionBuilder } from "../functions.js";
 import { techArray } from '../data.js'
 
 const tech = () => {

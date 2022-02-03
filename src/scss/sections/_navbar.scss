@@ -2,7 +2,11 @@
 @use "../components/mixins" as *;
 
 .navbar {
-  min-height: 100px;
+  min-height: 125px;
+
+  .container {
+    justify-content: center;
+  }
   
 }
 
@@ -13,47 +17,14 @@
   background: linear-gradient(180deg, rgba(255,255,255,1) 54%, rgba(207,207,207,1) 92%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#cfcfcf",GradientType=1);
   
-
-  li {
-    padding: 0 0.7rem;
-
-    a {
-      padding: 0 0.7rem;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 
 .logo {
-  max-width: 200px;
-  transition: 250ms;
+  max-width: 250px;
 
   @include media-breakpoint-down(md) {
-    max-width: 125px;
+    max-width: 200px;
   }
 
 }
 
-.nav-item {
-  color: $primary;
-  
-  @include media-breakpoint-down(md) {
-    margin-top: 15px;
-  }
-}
-  
-.email-link {
-  text-decoration: none;
-  color: black;
-
-}
-
-#email-button:hover {
-  .email-link {
-    color: $primary;
-  }
-}

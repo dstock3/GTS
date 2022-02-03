@@ -18,13 +18,14 @@ const about = () => {
   headSpan2.classList.add("lh-base");
   descriptionBuilder(descArray, headSpan2)
 
-  const touchAnchor = elementBuilder("a", "get-in-touch", colAbout1);
+  const touchAnchor = elementBuilder("a", "listen", colAbout1);
   touchAnchor.href = "https://soundcloud.com/andrew-miller-92566355"
   touchAnchor.target="_blank" 
   touchAnchor.rel="noopener noreferrer"
 
   const touchButtonArray = buttonBuilder("rounded-pill", "span", touchAnchor);
   const touchButton = touchButtonArray[0];
+  touchButton.classList.add("listen-button")
   const touchText = document.createTextNode("Listen");
   touchButton.appendChild(touchText);
   touchButton.classList.add("btn-rounded");
