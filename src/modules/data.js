@@ -42,6 +42,22 @@ const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
 
+const ep49 = {
+  title: `GTS Episode 49`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/v5K_GBSYuZ0?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/v5K_GBSYuZ0?autoplay=1><img src=https://img.youtube.com/vi/v5K_GBSYuZ0/hqdefault.jpg  alt='GTS Episode 48'><span>&#x25BA</span></a>"
+      title="GTS Episode 49" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we dive in on some college basketball, big news around the NFL and the NBA all star week.`,
+};
+
 const ep48 = {
   title: `GTS Episode 48`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/SsXLkYIUxDs?autoplay=1" 
@@ -197,6 +213,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
