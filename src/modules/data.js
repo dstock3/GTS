@@ -42,6 +42,23 @@ const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
 
+const ep59 = {
+  title: `GTS Episode 59`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/qNniXicOyNM?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/qNniXicOyNM?autoplay=1><img src=https://img.youtube.com/vi/qNniXicOyNM/hqdefault.jpg  alt='GTS Episode 59'><span>&#x25BA</span></a>"
+      title="GTS Episode 59" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we dive in on the NBA playoffs who we think will make it to the finals, and some MLB a quarter way through the season. Is it time to hit the panic button yet?`,
+
+}
+
 const ep58 = {
   title: `GTS Post Draft Interview with Broshmo`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/fgVLNA3GSFU?autoplay=1" 
@@ -359,6 +376,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
