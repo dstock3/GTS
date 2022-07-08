@@ -42,6 +42,38 @@ const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
 
+const ep63 = {
+  title: `GTS Episode 63`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/w6m3iDsSPqs?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/w6m3iDsSPqs?autoplay=1><img src=https://img.youtube.com/vi/w6m3iDsSPqs/hqdefault.jpg  alt='GTS Episode 61'><span>&#x25BA</span></a>"
+      title="GTS Episode 62" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss the upcoming NBA Draft, MLB all star voting and more!`,
+}
+
+const ep62 = {
+  title: `GTS Episode 62`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/7vInoxzS5Ao?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/7vInoxzS5Ao?autoplay=1><img src=https://img.youtube.com/vi/7vInoxzS5Ao/hqdefault.jpg  alt='GTS Episode 61'><span>&#x25BA</span></a>"
+      title="GTS Episode 62" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss some NBA Finals, MLB news and debate who is the most influential player on their sport.`,
+}
+
 const ep61 = {
   title: `GTS Episode 61`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Es2wZi-KWrQ?autoplay=1" 
@@ -408,6 +440,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
