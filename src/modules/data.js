@@ -42,11 +42,44 @@ const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
 
+const ep65 = {
+  title: `GTS Episode 65`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/DtSMfo3qOMQ?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/DtSMfo3qOMQ?autoplay=1><img src=https://img.youtube.com/vi/DtSMfo3qOMQ/hqdefault.jpg  alt='GTS Episode 65'><span>&#x25BA</span></a>"
+      title="GTS Episode 65" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss some big NBA signings, some MLB all star selection, and NFL offseason news.`,
+
+}
+
+const ep64 = {
+  title: `GTS Episode 64`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/4-thpODaf6A?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/4-thpODaf6A?autoplay=1><img src=https://img.youtube.com/vi/4-thpODaf6A/hqdefault.jpg  alt='GTS Episode 64'><span>&#x25BA</span></a>"
+      title="GTS Episode 64" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This weeks episode we have a new special guest joining us. We dive in on some NBA Draft results, MLB news, and a little NFL offseason.`,
+}
+
 const ep63 = {
   title: `GTS Episode 63`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/w6m3iDsSPqs?autoplay=1" 
-      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/w6m3iDsSPqs?autoplay=1><img src=https://img.youtube.com/vi/w6m3iDsSPqs/hqdefault.jpg  alt='GTS Episode 61'><span>&#x25BA</span></a>"
-      title="GTS Episode 62" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/w6m3iDsSPqs?autoplay=1><img src=https://img.youtube.com/vi/w6m3iDsSPqs/hqdefault.jpg  alt='GTS Episode 63'><span>&#x25BA</span></a>"
+      title="GTS Episode 63" 
       frameborder="0" 
       allow="accelerometer; 
       autoplay; clipboard-write; 
@@ -61,7 +94,7 @@ const ep63 = {
 const ep62 = {
   title: `GTS Episode 62`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/7vInoxzS5Ao?autoplay=1" 
-      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/7vInoxzS5Ao?autoplay=1><img src=https://img.youtube.com/vi/7vInoxzS5Ao/hqdefault.jpg  alt='GTS Episode 61'><span>&#x25BA</span></a>"
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/7vInoxzS5Ao?autoplay=1><img src=https://img.youtube.com/vi/7vInoxzS5Ao/hqdefault.jpg  alt='GTS Episode 62'><span>&#x25BA</span></a>"
       title="GTS Episode 62" 
       frameborder="0" 
       allow="accelerometer; 
@@ -440,6 +473,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
