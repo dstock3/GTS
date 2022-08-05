@@ -42,6 +42,38 @@ const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
 
+const ep67 = {
+  title: `GTS Episode 67`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/ric3CG7deKw?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/ric3CG7deKw?autoplay=1><img src=https://img.youtube.com/vi/ric3CG7deKw/hqdefault.jpg  alt='GTS Episode 67'><span>&#x25BA</span></a>"
+      title="GTS Episode 67" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss the winners and losers of the MLB trade deadline, and some big NFL offseason news that came out during the week.`,
+}
+
+const ep66 = {
+  title: `GTS Episode 66`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kBsUg1yPKKs?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/kBsUg1yPKKs?autoplay=1><img src=https://img.youtube.com/vi/kBsUg1yPKKs/hqdefault.jpg  alt='GTS Episode 66'><span>&#x25BA</span></a>"
+      title="GTS Episode 66" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This Week we dive in on the MLB ALL star game, home run derby, and big NFL offseason news.`,
+}
+
 const ep65 = {
   title: `GTS Episode 65`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/DtSMfo3qOMQ?autoplay=1" 
@@ -473,6 +505,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep67, ep66, ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
