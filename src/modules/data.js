@@ -42,6 +42,22 @@ const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
 
+const ep72 = {
+  title: `GTS Episode 72`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/_383P1PpRPk?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/_383P1PpRPk?autoplay=1><img src=https://img.youtube.com/vi/_383P1PpRPk/hqdefault.jpg  alt='GTS Episode 72'><span>&#x25BA</span></a>"
+      title="GTS Episode 72" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we dive in on big games in College Football, recap week 1 of the NFL and Preview week 2 with Nick's Picks.`,
+}
+
 const ep71 = {
   title: `GTS Episode 71`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/qTDUCjEStCY?autoplay=1" 
@@ -569,6 +585,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep71, ep70, ep69, ep68, ep67, ep66, ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep72, ep71, ep70, ep69, ep68, ep67, ep66, ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
