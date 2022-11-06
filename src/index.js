@@ -36,7 +36,7 @@ footer()
 GBox()
 
 const lightbox = GLightbox({
-    href: "https://www.youtube.com/watch?v=xgS5iyfgJNI",
+    href: "https://www.youtube.com/watch?v=2BrdH_KsVSg",
     type: "video",
     source: "youtube",
     width: 900,
