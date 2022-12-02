@@ -41,7 +41,37 @@ const youtube = {
 const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
+const ep80 = {
+  title: `GTS Episode 80`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/5wqCIAnz7v8?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/5wqCIAnz7v8?autoplay=1><img src=https://img.youtube.com/vi/5wqCIAnz7v8/hqdefault.jpg  alt='GTS Episode 80'><span>&#x25BA</span></a>"
+      title="GTS Episode 80" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss the college football playoff picture, recap week 11 of the NFL and Bears game breakdown.`,
+}
 
+const ep79 = {
+  title: `GTS Episode 79`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/JSckCsTuXF0?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/JSckCsTuXF0?autoplay=1><img src=https://img.youtube.com/vi/JSckCsTuXF0/hqdefault.jpg  alt='GTS Episode 79'><span>&#x25BA</span></a>"
+      title="GTS Episode 79" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss some MLB offseason moves, College football matchups and recap week 10 of the NFL.`,
+}
 
 const ep77 = {
   title: `GTS Episode 77`,
@@ -667,6 +697,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep77, ep76, ep75, ep74, ep73, ep72, ep71, ep70, ep69, ep68, ep67, ep66, ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep80, ep79, ep77, ep76, ep75, ep74, ep73, ep72, ep71, ep70, ep69, ep68, ep67, ep66, ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
