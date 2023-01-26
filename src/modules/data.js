@@ -41,6 +41,119 @@ const youtube = {
 const techArray = [soundcloud, spotify, youtube]
 
 //Video Carousel
+
+const ep87 = {
+  title: `GTS Episode 87`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/4QnhhIBA_A?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/4QnhhIBA_A?autoplay=1><img src=https://img.youtube.com/vi/4QnhhIBA_A/hqdefault.jpg  alt='GTS Episode 87'><span>&#x25BA</span></a>"
+      title="GTS Episode 87" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we recap wild card round, preview the divisional round and discuss the Chicago bears offseason.`,
+}
+
+const ep86 = {
+  title: `GTS Episode 86`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/zwkqYv1gweA?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/zwkqYv1gweA?autoplay=1><img src=https://img.youtube.com/vi/zwkqYv1gweA/hqdefault.jpg  alt='GTS Episode 86'><span>&#x25BA</span></a>"
+      title="GTS Episode 86" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss College football national championship, the upcoming playoff games in the NFL and a little Bears offseason preview.`,
+}
+
+const ep85 = {
+  title: `GTS Episode 85`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/vC0FJtrhv8M?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/vC0FJtrhv8M?autoplay=1><img src=https://img.youtube.com/vi/vC0FJtrhv8M/hqdefault.jpg  alt='GTS Episode 85'><span>&#x25BA</span></a>"
+      title="GTS Episode 85" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss the college football playoff, bowl season, preview week 18 of the NFL and of course our Bears talk.`,
+}
+
+const ep84 = {
+  title: `GTS Episode 84`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/He0I4sgxqn4?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/He0I4sgxqn4?autoplay=1><img src=https://img.youtube.com/vi/He0I4sgxqn4/hqdefault.jpg  alt='GTS Episode 84'><span>&#x25BA</span></a>"
+      title="GTS Episode 84" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss some MLB offseason big moves, recap week 16 of the NFL and Bears talk of the week.`,
+}
+
+const ep83 = {
+  title: `GTS Episode 83`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/mAx5_Dcd5s?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/mAx5_Dcd5s?autoplay=1><img src=https://img.youtube.com/vi/mAx5_Dcd5s/hqdefault.jpg  alt='GTS Episode 83'><span>&#x25BA</span></a>"
+      title="GTS Episode 83" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss MLB offseason, recap week 15 of the NFL and Chicago Bears vs Philadelphia Eagles.`,
+}
+
+const ep82 = {
+  title: `GTS Episode 82`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/iN8KPQK1Kck?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/iN8KPQK1Kck?autoplay=1><img src=https://img.youtube.com/vi/iN8KPQK1Kck/hqdefault.jpg  alt='GTS Episode 82'><span>&#x25BA</span></a>"
+      title="GTS Episode 82" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we discuss a little MLB offseason signings, some College football news and recap week 14 of the NFL.`,
+}
+
+const ep81 = {
+  title: `GTS Episode 81`,
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/N-jVlUlC4xM?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/N-jVlUlC4xM?autoplay=1><img src=https://img.youtube.com/vi/N-jVlUlC4xM/hqdefault.jpg  alt='GTS Episode 81'><span>&#x25BA</span></a>"
+      title="GTS Episode 81" 
+      frameborder="0" 
+      allow="accelerometer; 
+      autoplay; clipboard-write; 
+      encrypted-media; gyroscope;
+      loading="lazy";
+      picture-in-picture" 
+      allowfullscreen>
+    </iframe>`,
+  description: `This week we talk some of the big MLB offseason moves, College football playoff picture and recap week 13 of the NFL.`,
+}
+
 const ep80 = {
   title: `GTS Episode 80`,
   iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/5wqCIAnz7v8?autoplay=1" 
@@ -697,6 +810,6 @@ const ep39 = {
   description: `This week we recap week 14 of the NFL, College football big news, Bobby's bets and a new segment.`,
 };
 
-const carouselVidArray = [ep80, ep79, ep77, ep76, ep75, ep74, ep73, ep72, ep71, ep70, ep69, ep68, ep67, ep66, ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
+const carouselVidArray = [ep87, ep86, ep85, ep84, ep83, ep82, ep81, ep80, ep79, ep77, ep76, ep75, ep74, ep73, ep72, ep71, ep70, ep69, ep68, ep67, ep66, ep65, ep64, ep63, ep62, ep61, ep60, ep59, ep58, ep57, ep56, ep55, ep54, ep53, ep52, ep51, ep50, ep49, ep48, ep47, ep46, ep45, ep44, ep43, ep41, ep40, ep39];
 
 export { descArray, vidData, techArray, carouselVidArray }
