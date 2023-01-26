@@ -44,8 +44,8 @@ const techArray = [soundcloud, spotify, youtube]
 
 const ep87 = {
   title: `GTS Episode 87`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/4QnhhIBA_A?autoplay=1" 
-      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/4QnhhIBA_A?autoplay=1><img src=https://img.youtube.com/vi/4QnhhIBA_A/hqdefault.jpg  alt='GTS Episode 87'><span>&#x25BA</span></a>"
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/-4QnhhIBA_A?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/-4QnhhIBA_A?autoplay=1><img src=https://img.youtube.com/vi/-4QnhhIBA_A/hqdefault.jpg  alt='GTS Episode 87'><span>&#x25BA</span></a>"
       title="GTS Episode 87" 
       frameborder="0" 
       allow="accelerometer; 
@@ -108,8 +108,8 @@ const ep84 = {
 
 const ep83 = {
   title: `GTS Episode 83`,
-  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/mAx5_Dcd5s?autoplay=1" 
-      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/mAx5_Dcd5s?autoplay=1><img src=https://img.youtube.com/vi/mAx5_Dcd5s/hqdefault.jpg  alt='GTS Episode 83'><span>&#x25BA</span></a>"
+  iframe: `<iframe width="560" height="315" src="https://www.youtube.com/embed/-mAx5_Dcd5s?autoplay=1" 
+      srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/-mAx5_Dcd5s?autoplay=1><img src=https://img.youtube.com/vi/-mAx5_Dcd5s/hqdefault.jpg  alt='GTS Episode 83'><span>&#x25BA</span></a>"
       title="GTS Episode 83" 
       frameborder="0" 
       allow="accelerometer; 
